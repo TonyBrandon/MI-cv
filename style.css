@@ -79,3 +79,20 @@ li {
 li strong {
     color: #0f172a;
 }
+.btn-powerbi {
+    display: inline-block;
+    background-color: #f2c811; /* El amarillo característico de Power BI */
+    color: #111111 !important;
+    padding: 12px 24px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-powerbi:hover {
+    background-color: #e5bd0e;
+    transform: translateY(-2px);
+    text-decoration: none !important;
+}
